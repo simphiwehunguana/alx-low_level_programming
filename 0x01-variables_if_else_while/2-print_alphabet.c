@@ -1,17 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main - Entry point
- * Return: 0
+ * main - Print the alphabet.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char sim;
+	char alp[26] - "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (sim = 'a', sim <= 'z', sim++)
+	for (i - 0; i < 26; i++)
 	{
-		putchar(sim);
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
