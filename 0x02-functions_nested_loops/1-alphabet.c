@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - entry point
  * Ruturn: 0
  */
 int main(void)
