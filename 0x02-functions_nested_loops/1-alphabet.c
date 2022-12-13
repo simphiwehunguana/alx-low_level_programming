@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - entry point
+ * main - Print alphabet
  * Ruturn: 0
  */
 int main(void)
@@ -13,4 +13,6 @@ int main(void)
 		c++;
 	}
 	_putchar('\n');
+
+	return (0);
 }
